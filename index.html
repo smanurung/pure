@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css"/>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/base-min.css">
+		<!-- <link rel="stylesheet" href="css/pure-min.css"/> -->
+		<!-- <link rel="stylesheet" href="css/pure-mine.css"/> -->
+		<title>New Web Project</title>
+		<style scoped>
+			body > * {
+				padding: 0 1em;
+			}
+			ul.menu-list {
+				list-style-type: none;
+				padding: 0;
+				margin: 1em 0em;
+				text-align: center;
+			}
+
+			li.pure-menu-selected {
+				display: inline;
+				margin: 0em 1.5em;
+			}
+
+			a.menu-item-link {
+				font-family: "Bebas Neue", Calibri, Arial, Helvetica, sans-serif;
+				font-size: 1.3em;
+				text-decoration: none;
+				color: #c31f05 !important;
+				display: inline;
+				position: relative;
+			}
+
+			a.menu-item-link:hover {
+				color: #000000 !important;
+			}
+
+			a.menu-item-link:active {
+				top: 0.1em;
+				left: 0.1em;
+			}
+			.shadow {
+				-webkit-box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
+				box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
+			}
+
+			.small-box {
+				background-color: #cdcdcd;
+				padding: 1em 0.3em;
+			}
+
+			#twitter-box {
+				background-color: #1a98e7;
+			}
+
+			* {
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+
+			.pure-form label {
+				color: #000000;
+			}
+			.pure-table thead {
+				white-space: normal;
+			}
+			.pure-form.pure-form-stacked textarea {
+				display: block;
+				margin: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<nav id="main-menu" class="pure-menu pure-menu-open pure-menu-horizontal">
+			<ul class="menu-list">
+				<li class="pure-menu-selected">
+					<a class="menu-item-link" href="#">Homepage</a>
+				</li>
+				<li class="pure-menu-selected">
+					<a class="menu-item-link" href="#">News</a>
+				</li>
+				<li class="pure-menu-selected">
+					<a class="menu-item-link" href="#">Graphics</a>
+				</li>
+				<li class="pure-menu-selected">
+					<a class="menu-item-link" href="#">Mobile</a>
+				</li>
+				<li class="pure-menu-selected">
+					<a class="menu-item-link" href="#">Web Design</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="pure-g-r">
+			<aside id="video-box" class="pure-u-1-2 small-box shadow">
+				<p>
+					Screencast box
+				</p>
+			</aside>
+			<aside id="twitter-box" class="pure-u-1-2 small-box shadow">
+				<p>
+					Twitter box
+				</p>
+			</aside>
+		</div>
+		
+		<div class="pure-u-1-2">
+			<form id="contact" name="contact" action="#" method="post" class="pure-form pure-form-stacked">
+				<fieldset>
+					<legend>Kirim Pesan Kamu!</legend>
+					<label>Name</label>
+					<input type="text" name="name" placeholder="Name" />
+					<label>Email</label>
+					<input type="email" name="email" placeholder="Email" />
+					<label>Subject</label>
+					<input type="text" name="subject" placeholder="Subject" />
+					<label>Message</label>
+					<textarea name="message" placeholder="Your message here..." ></textarea>
+					<div class="pure-controls">
+						<input type="submit" class="pure-button pure-button-primary" value="Submit" />
+						<input type="reset" class="pure-button" value="Reset" />
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
