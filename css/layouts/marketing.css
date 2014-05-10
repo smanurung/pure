@@ -143,6 +143,15 @@ a.pure-button-primary {
     position: fixed !important;
 }
 
+.background-ulos
+{
+    background: url(http://robintheblog.files.wordpress.com/2012/06/mg_4402.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
 .splash {
     /* absolute center .splash within .splash-container */
     width: 80%;
