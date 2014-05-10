@@ -143,9 +143,10 @@ a.pure-button-primary {
     position: fixed !important;
 }
 
+/*tambahan*/
 .background-ulos
 {
-    background: url(http://robintheblog.files.wordpress.com/2012/06/mg_4402.jpg) no-repeat center center fixed;
+    background: url('../../img/ulos-dark.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -160,7 +161,7 @@ a.pure-button-primary {
     position: absolute;
     top: 100px; left: 0; bottom: 0; right: 0;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 /* This is the main heading that appears on the blue section */
